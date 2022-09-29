@@ -5,12 +5,16 @@ desc: Amante della pizza.
 about: I love pizza.
 excerpt_separator: "<!-- more -->"
 markdown: kramdown
+sass:
+    sass_dir: _sass
+    style: compressed
 gems:
 - jekyll-paginate
 exclude:
   - .jekyll-metadata
   - README.md
   - CNAME
+  - README (kopia).md
 paginate: 5
 paginate_path: "/:num/"
 highlighter: rouge
