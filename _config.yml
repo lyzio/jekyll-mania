@@ -1,0 +1,17 @@
+---
+title: Mania for Jekyll
+baseurl: "/"
+desc: Amante della pizza.
+about: I love pizza.
+excerpt_separator: "<!-- more -->"
+markdown: kramdown
+gems:
+- jekyll-paginate
+exclude:
+  - .jekyll-metadata
+  - README.md
+  - CNAME
+paginate: 5
+paginate_path: "/:num/"
+highlighter: rouge
+permalink: pretty
